@@ -22,6 +22,7 @@ namespace _01_Ejemplo_Bool
             mensaje = "La variable test contiene el valor " + test;
             // Mostramos mensaje en pantalla
             Console.WriteLine(mensaje);
+
         }
     }
 }

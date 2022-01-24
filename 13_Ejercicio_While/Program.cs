@@ -11,7 +11,15 @@ namespace _13_Ejercicio_While
     {
         static void Main(string[] args)
         {
-            // Tu código aquí
+            int seg = 10;
+            while (seg >= 0)
+            {
+                Console.WriteLine(seg);
+                seg--;
+
+            }
+            Console.WriteLine("despegue");
+                
         }
     }
 }

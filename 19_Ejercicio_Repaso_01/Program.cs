@@ -9,7 +9,13 @@ namespace _19_Ejercicio_Repaso_01
     {
         static void Main(string[] args)
         {
-            // Tu código aquí
+            int edad;
+
+            edad = Int32.Parse(Console.ReadLine());
+            for (int i = 1; i <= edad ; i++)
+            {
+                Console.WriteLine("Feliz " + i + " cumpleaños");
+            }
         }
     }
 }

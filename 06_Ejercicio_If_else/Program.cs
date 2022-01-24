@@ -10,7 +10,14 @@ namespace _06_Ejercicio_If_else
     {
         static void Main(string[] args)
         {
-            // Tu código aquí
+            Console.WriteLine("dime tu edad");
+            int edad = Int32.Parse(Console.ReadLine());
+            if (edad >= 18) {
+                Console.WriteLine("eres mayor de edad");
+                
+            }
+            else { Console.WriteLine("eres menos de edad");
+            }
         }
     }
 }

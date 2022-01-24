@@ -13,7 +13,7 @@ namespace _14_Ejemplo_For
         {
             int numero; // Creamos una variable de tipo entero
             numero = 1; // Asignamos 1 a la variable
-
+            
             while (numero <= 5) // Mientras la variable numero tenga un valor igual o menor que 5, repetiremos el código entre { y }
             {
                 Console.WriteLine("El número es " + numero); // Mostrar en pantalla el valor de la variable numero
@@ -27,9 +27,10 @@ namespace _14_Ejemplo_For
             {
                 Console.WriteLine("El valor de i es " + i); // Mostrar en pantalla el valor de la variable i
             }
-
+            
             Console.WriteLine("Después del bucle, i deja de existir"); // Tras el bucle, la variable i no existe por lo que no podemos mostrar su valor.
-            // Console.WriteLine(i); // Si intentamos utilizar esta variable, es un error
+           
+            Console.WriteLine(i); // Si intentamos utilizar esta variable, es un error
         }
     }
 }

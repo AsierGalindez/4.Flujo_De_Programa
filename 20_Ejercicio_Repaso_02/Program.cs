@@ -13,7 +13,15 @@ namespace _20_Ejercicio_Repaso_02
     {
         static void Main(string[] args)
         {
-            //Introduce aquí tu código
+            int num;
+            int suma = 0;
+            Console.WriteLine("dame un número");
+            num = Int32.Parse(Console.ReadLine());
+            for (int i = 1; i <= num; i++)
+            {
+                suma = suma + i;//suma+=i es lo mismo
+            }
+            Console.WriteLine(suma);
         }
     }
 }
